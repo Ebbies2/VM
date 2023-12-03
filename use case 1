@@ -7,3 +7,13 @@ Voter selects the election they want to participate in.
 System displays the candidates or options for the selected election.
 Voter selects their preferred candidate or casts their vote.
 System confirms the vote and updates the tally for the respective candidate
+
+User Registration and Authentication:
+
+Actor: Voter
+Preconditions: User has access to the voting system.
+Basic Flow:
+Voter accesses the system and clicks on the "Register" button.
+System prompts the user to provide necessary information: name, address, and a unique identifier.
+After submission, the system verifies the information and assigns a unique voter ID.
+Voter logs in using the assigned voter ID and a secure password.
